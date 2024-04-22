@@ -289,7 +289,7 @@ class MetaAI {
     for (const reference of searchResults['references']) {
       sources.references.push({
         link: reference['link'],
-        title: reference['link'],
+        title: reference['title'],
       });
     }
 
